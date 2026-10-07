@@ -1,0 +1,3 @@
+group_name,orders,avg_score,pct_1_2_star
+took 21+ days AND late,5481,2.13,66.5
+took 21+ days but on time,6735,3.92,15.4

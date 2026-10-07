@@ -1,0 +1,9 @@
+duckdb>=1.0
+pandas>=2.0
+numpy
+scipy
+statsmodels
+matplotlib
+seaborn
+jupyter
+nbformat

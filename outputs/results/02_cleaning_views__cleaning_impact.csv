@@ -1,0 +1,5 @@
+step,orders
+all orders,99441
+status = delivered,96478
+... with valid delivery date,96470
+... within Jan-2017..Aug-2018 (analysis set),96203

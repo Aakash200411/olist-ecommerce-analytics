@@ -1,0 +1,6 @@
+actual_delivery_time,orders,avg_score,late_pct
+1) under 1 week,25924,4.42,0.2
+2) 1-2 weeks,39897,4.31,0.8
+3) 2-3 weeks,17523,4.14,3.0
+4) 3-4 weeks,7832,3.61,25.7
+5) 30+ days,4384,2.24,79.2

@@ -1,0 +1,5 @@
+seller_band,sellers,orders,late_orders,pct_of_all_late_orders
+1) under 5% late,180,24512.0,799.0,16.1
+2) 5-10% late,163,38494.0,2786.0,56.0
+3) 10-20% late,77,10485.0,1314.0,26.4
+4) 20%+ late,4,310.0,74.0,1.5

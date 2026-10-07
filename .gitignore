@@ -1,0 +1,7 @@
+# raw data is public but large; users download it themselves (see data/README.md)
+data/raw/*.csv
+data/*.duckdb
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+outputs.zip

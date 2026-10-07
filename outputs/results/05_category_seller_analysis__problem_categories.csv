@@ -1,0 +1,11 @@
+category,orders,avg_review,pct_1_2_star,late_pct,gmv,worst_rank
+office_furniture,1239,3.52,25.3,7.9,264146.0,1
+bed_bath_table,9172,3.92,18.2,6.9,1013112.0,2
+unknown,1380,3.94,19.5,7.5,169586.0,3
+furniture_decor,6212,3.96,18.0,7.0,700327.0,4
+computers_accessories,6486,3.99,17.0,6.4,883981.0,5
+telephony,4062,3.99,15.5,6.9,307569.0,6
+electronics,2497,4.07,14.8,7.6,150942.0,7
+watches_gifts,5448,4.07,14.8,7.1,1156231.0,8
+baby,2778,4.08,14.9,7.6,395930.0,9
+garden_tools,3423,4.08,14.9,6.5,465941.0,10

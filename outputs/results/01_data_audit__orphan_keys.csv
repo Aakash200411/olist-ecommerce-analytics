@@ -1,0 +1,7 @@
+check_name,orphans
+items -> orders,0
+items -> products,0
+items -> sellers,0
+orders -> customers,0
+payments -> orders,0
+reviews -> orders,0
