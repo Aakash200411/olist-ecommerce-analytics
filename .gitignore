@@ -4,4 +4,3 @@ data/*.duckdb
 .ipynb_checkpoints/
 __pycache__/
 .venv/
-outputs.zip
