@@ -7,23 +7,23 @@ marketplace dataset (9 relational tables, 2016-2018). SQL for the analysis, Pyth
 
 The original SQL/Python analysis is now complemented by a Tableau Public workbook. The dashboards provide an executive summary, a focused delivery diagnosis, and a recommendation-oriented action plan.
 
-**[Open the interactive Tableau dashboards](PASTE_YOUR_TABLEAU_PUBLIC_URL_HERE)** <!-- Replace this placeholder with the published Tableau Public URL before committing. -->
+**[Open the interactive Tableau dashboards](https://public.tableau.com/app/profile/aakash.lodha/viz/Olist_Delivery_Intelligence/ExecutiveOverview)** <!-- Replace this placeholder with the published Tableau Public URL before committing. -->
 
 ### Dashboard 1 — Executive Overview
 
-![Executive Overview dashboard](outputs/tableau/dashboard_1_executive_overview.png)
+![Executive Overview dashboard](Olist_Dashboard-1.png)
 
 Summarizes total orders, GMV, late-delivery rate, average review score, and low-review rate. It also shows the monthly late-delivery trend, review score by delivery status, state-level late-delivery rates, and seller-level late-delivery rates.
 
 ### Dashboard 2 — Delivery Problem Diagnosis
 
-![Delivery Problem Diagnosis dashboard](outputs/tableau/dashboard_2_delivery_problem_diagnosis.png)
+![Delivery Problem Diagnosis dashboard](Olist_Dashboard-2.png)
 
 Compares review scores by delay severity, late-delivery rates by product category and state, and late-order volume by state. The state rate and volume views answer different questions: where late delivery is relatively common, and where the number of affected orders is largest.
 
 ### Dashboard 3 — Delivery Improvement Action Plan
 
-![Delivery Improvement Action Plan dashboard](outputs/tableau/dashboard_3_delivery_improvement_action_plan.png)
+![Delivery Improvement Action Plan dashboard](Olist_Dashboard-3.png)
 
 Translates the analysis into priority areas and recommended investigations: state-level bottlenecks, severe delays, product-category reliability, and ongoing customer-satisfaction monitoring. These are recommendations for further investigation—not proof of root causes or measured improvements.
 
