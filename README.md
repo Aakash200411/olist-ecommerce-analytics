@@ -3,6 +3,38 @@
 **Real data, fully reproducible.** About 96,000 delivered orders (R$13.2M GMV) from the public Olist Brazilian
 marketplace dataset (9 relational tables, 2016-2018). SQL for the analysis, Python for charts and statistics.
 
+## Interactive Tableau dashboards
+
+The original SQL/Python analysis is now complemented by a Tableau Public workbook. The dashboards provide an executive summary, a focused delivery diagnosis, and a recommendation-oriented action plan.
+
+**[Open the interactive Tableau dashboards](PASTE_YOUR_TABLEAU_PUBLIC_URL_HERE)** <!-- Replace this placeholder with the published Tableau Public URL before committing. -->
+
+### Dashboard 1 — Executive Overview
+
+![Executive Overview dashboard](outputs/tableau/dashboard_1_executive_overview.png)
+
+Summarizes total orders, GMV, late-delivery rate, average review score, and low-review rate. It also shows the monthly late-delivery trend, review score by delivery status, state-level late-delivery rates, and seller-level late-delivery rates.
+
+### Dashboard 2 — Delivery Problem Diagnosis
+
+![Delivery Problem Diagnosis dashboard](outputs/tableau/dashboard_2_delivery_problem_diagnosis.png)
+
+Compares review scores by delay severity, late-delivery rates by product category and state, and late-order volume by state. The state rate and volume views answer different questions: where late delivery is relatively common, and where the number of affected orders is largest.
+
+### Dashboard 3 — Delivery Improvement Action Plan
+
+![Delivery Improvement Action Plan dashboard](outputs/tableau/dashboard_3_delivery_improvement_action_plan.png)
+
+Translates the analysis into priority areas and recommended investigations: state-level bottlenecks, severe delays, product-category reliability, and ongoing customer-satisfaction monitoring. These are recommendations for further investigation—not proof of root causes or measured improvements.
+
+### Tableau headline metrics
+
+The Executive Overview displays 96,203 delivered orders, approximately R$13.18M GMV, a 6.79% late-delivery rate, a 4.16 average review score, and a 12.80% low-review rate.
+
+**Metric-population note:** The Tableau overview's 6,531 late orders counts late orders across the order-level export. The review-score comparison in the statistical analysis uses only orders with a review, so its late group contains 6,378 orders. These counts have different populations and should not be compared as if they were calculated from the same subset.
+
+The Tableau dashboards complement the existing analysis; they do not replace the SQL queries, data-quality audit, hypothesis tests, regression, or RFM analysis documented below.
+
 > **Headline:** Late delivery is the single biggest driver of bad reviews. Orders that arrive after the promised
 > date score **2.27 / 5** versus **4.29 / 5** for on-time orders, and the promise matters more than speed: orders
 > that took 21+ days but arrived on time still scored 3.92. Meanwhile **97% of customers never come back**, so
@@ -108,7 +140,8 @@ sql/            00_schema, 00b_load_postgres, 01_data_audit, 02_cleaning_views, 
                 04_delivery_performance, 05_category_seller_analysis, 06_customer_rfm, 07_satisfaction_drivers
 scripts/        build_db.py (load + row-count check), run_sql.py (run queries, save CSVs)
 notebooks/      olist_analysis.ipynb (charts, hypothesis tests, regression)
-outputs/        charts/, results/ (one CSV per query), key_numbers.json
+outputs/        charts/, results/ (one CSV per query), key_numbers.json,
+                tableau/ (order-level exports and dashboard screenshots)
 data/           README.md (download instructions); raw CSVs go in data/raw/ (not committed)
 docs/           resume_and_interview_prep.md
 ```
